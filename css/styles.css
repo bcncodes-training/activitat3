@@ -1,0 +1,29 @@
+html,
+body {
+  color: #00f;
+  background-color: #cfc;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+h1 {
+  color: rgba(255, 0, 0, 0.5);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+}
+
+h2 {
+  color: rgba(170, 0, 0, 0.5);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+}
+
+.etiqueta {
+  background-color: #060;
+}
+
+.negrita {
+  background-color: #000;
+  color: #fff;
+  font-style: italic;
+}
