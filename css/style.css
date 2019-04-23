@@ -1,0 +1,39 @@
+body{
+    font-size: 1rem;
+    background-image: url(../img/paisaje.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.principal{
+    color: #00BCD4;
+    background-color: #ddffde;
+    font-family: Georgia, Cambria, serif;
+    font-size: 1rem;
+}
+.nivel1{
+    color: #bf0e0e;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 2rem;
+}
+.nivel2 a{
+    color: #ff8585;
+    font-family: Verdana, Calabri, sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.tags a{
+    color: #03e60c;
+    text-decoration: none;
+}
+.ciudad{
+    background-color: #000;
+    color: #fff;
+    font-style: italic;
+}
+.logo-me{
+    position: fixed;
+    width: 110px;
+    right: 12px;
+}
