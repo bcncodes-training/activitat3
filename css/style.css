@@ -1,0 +1,29 @@
+.texto {
+    color: blue;
+    background-color: #CFC;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+h1 {
+    background-color: rgba(255, 0, 0, 0.267);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    background-size: 3cm;
+    
+}
+h2{
+    background-color: #A00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+.Nördlingen{
+    color: whitesmoke;
+    background-color: black;
+    font-style: italic;
+
+}
+
+    .etiquetas{
+        color: violet;
+}

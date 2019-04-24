@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ejercicio Blog</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
@@ -12,34 +13,41 @@
         <h1>Blog de viajes y fotografía</h1>
         <nav>
             <ul>
-                <li> <a href = "index.html"> INICIO </a></li>
+                <li><a href = "index.html"> INICIO </a></li>
                 <li><a href = "#"> SOBRE MI </a></li>
                 <li><a href = "#"> COLABORACIONES </a></li>
             </ul>
         </nav>
     </header>
     <br>
-    <p><time datetime = "2019-04-15">lunes, 15 de abril de 2019</time></p>
-    <article>
-    <h2><a href="#">¿CONOCES LA CURIOSA CIUDAD ALEMANA DE NÖRDLINGEN?</a></h2>
-    <br>
-    <p><strong>Nördlingen</strong> es una ciudad situada en el estado alemán de Baviera a unos 145 Km de Munich. Una bonita ciudad de aire medieval, murallas y con una iglesia gótica. A pesar de que esto ya le hace merecedora de una visita, no es lo que le hace especial.<strong>¿Conoce la curiosa ciudad alemana de Nördlingen?</strong></p>
-    <figure>
-        <img src="assets/Vista_aérea.jpg" alt="Vista aérea del crácter y la ciudad dentro" >
-        <figcaption>Vista aérea del cráter y la ciudad dentro - ROGER W</figcaption>
-    </figure>
-    <p>     Hace 15 millones de años cayó un <strong>meteorito creando un cráter de 25 kilómetros</strong> de diámetro. El impacto generó tal energía que sometió al lecho rocoso a una temperatura y presión tan grande que las burbujas de carbono de su interior se convirtieron en Millones de <strong>diamantes</strong> aprisionados entre las rocas del lugar. Lo único, que son diamantes muy pequeños, casi imperceptibles al ojo humano, de menos de 0,2 mm.<br>
-            Todas estas rocas fueron utilizadas para la construcción de las casas del pueblo original, así como para la construcción de la iglesia, así que este hecho hacen de <strong>Nördlingen</strong> una curiosa ciudad sin igual en el mundo, con todas sus paredes llenas de piedras preciosas.
-            Digo yo, que gracias a Dios los diamantes son tan pequeños que casi no tienen valor, porque seguramente, la ciudad hubiera sido arrasada a lo largo de los años.
-    </p>
-    <figure>
-            <img src="assets/Noerdlingen_WIKIPEDIA.jpg" alt="La curiosa ciudad alemana de Nördlingen" >
-            <figcaption>La curiosa ciudad alemana de Nördlingen. Fotografía de Wikipedia</figcaption>
-    </figure>
-    <p>
-            Durante muchos años se pensó que la ciudad estaba construida sobre el cráter de un volcán, pero luego los expertos descubrieron que el agujero fue el resultado del impacto de un meteorito. Una ciudad que se convirtió en especial hace millones de años cuando se produjo el brutal impacto del meteorito. Y ahora ya <strong>¿Conoces la curiosa ciudad alemana de Nördlingen?</strong>
-    </p>
-    </article>
+    <main>
+        <article>
+            <time datetime = "2019-04-15">lunes, 15 de abril de 2019</time>
+            <header><h2><a href="#">¿CONOCES LA CURIOSA CIUDAD ALEMANA DE <span class = "Nördlingen">NÖRDLINGEN</span>?</a></h2></header>
+            <br>
+            <p class="texto"><span class="Nördlingen">Nördlingen</span> es una ciudad situada en el estado alemán de Baviera a unos 145 Km    de Munich. Una bonita ciudad de aire medieval, murallas y con una iglesia gótica. A pesar de que esto ya le hace merecedora de una visita, no es lo que le hace especial.<strong>¿Conoce la curiosa ciudad alemana de <span class = "Nördlingen">Nördlingen</span>?</strong></p>
+            <figure>
+                <img src="assets/Vista_aérea.jpg" alt="Vista aérea del crácter y la ciudad dentro" >
+                <figcaption>Vista aérea del cráter y la ciudad dentro - ROGER W</figcaption>
+            </figure>
+            <p class="texto"> Hace 15 millones de años cayó un <strong>meteorito creando un cráter de 25 kilómetros</strong> de diámetro. El impacto generó tal energía que sometió al lecho rocoso a una temperatura y presión tan grande que las burbujas de carbono de su interior se convirtieron en Millones de <strong>diamantes</strong> aprisionados entre las rocas del lugar. Lo único, que son diamantes muy pequeños, casi imperceptibles al ojo humano, de menos de 0,2 mm.<br>
+                    Todas estas rocas fueron utilizadas para la construcción de las casas del pueblo original, así como para la construcción de la iglesia, así que este hecho hacen de <span class="Nördlingen">Nördlingen</span> una curiosa ciudad sin igual en el mundo, con todas sus paredes llenas de piedras preciosas.
+                    Digo yo, que gracias a Dios los diamantes son tan pequeños que casi no tienen valor, porque seguramente, la ciudad hubiera sido arrasada a lo largo de los años.
+            </p>
+            <figure>
+                    <img src="assets/Noerdlingen_WIKIPEDIA.jpg" alt="La curiosa ciudad alemana de Nördlingen" >
+                    <figcaption>La curiosa ciudad alemana de <span class="Nördlingen">Nördlingen</span>. Fotografía de Wikipedia</figcaption>
+            </figure>
+            <p class="texto">
+                    Durante muchos años se pensó que la ciudad estaba construida sobre el cráter de un volcán, pero luego los expertos descubrieron que el agujero fue el resultado del impacto de un meteorito. Una ciudad que se convirtió en especial hace millones de años cuando se produjo el brutal impacto del meteorito. Y ahora ya <strong>¿Conoces la curiosa ciudad alemana de <span class = "Nördlingen">Nördlingen</span>?</strong>
+            </p>
+            <p>
+                Etiquetas:
+                <a href = "#" class="etiquetas"> Alemania, </a>
+                <a href = "#" class = "etiquetas"> Curiosidades </a>
+            </p>
+        </article>
+    </main>
     <aside>
          <img src="assets/Netikerty+anden+redes-sociales-abajo-compressor.png" alt = "redes sociales"/> <br>
          <img src="assets/Entradas-populares-2-compressor.png" alt= "populares"/><br>
