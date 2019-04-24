@@ -24,6 +24,13 @@ h2{
 
 }
 
-    .etiquetas{
-        color: violet;
+.etiquetas{
+    color: violet;
+}
+body{
+    background-image: url(../assets/avion.jpg), url("../assets/barco-karaka-dubrovnik.jpg");
+    background-attachment: scroll,fixed;
+    background-repeat: no-repeat;
+    background-size: 25% auto, 100%;
+    background-position: right top, left top;
 }
