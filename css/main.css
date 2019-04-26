@@ -1,0 +1,60 @@
+* {
+    border: 1px solid red;
+}*
+
+img[alt="imagen-cabecera"] {
+    width: 864px;
+    height: 253px;
+  
+}
+body{
+    width: 864px;
+    margin: auto;
+    background-color:#faf7f7;
+    box-shadow: 2px 2px 30px -13px rgba(0,0,0,0.75);
+}
+h1{
+    margin:30px;
+}
+nav{
+    /* porque aquí no funciona el margin: auto;?*/
+    text-align: center;
+}
+
+li {
+    display: inline-block;    
+   }
+       
+
+figure {
+    margin: 0px;
+    display: block;
+    
+}
+main {
+    box-sizing: border-box;
+    width: 60%;
+    padding: 30px;
+    border-right: 1px solid #dfdcdc;
+
+}
+aside {
+    box-sizing: border-box;
+    width: 40%;
+    padding: 30px;
+    margin: 0 auto; 
+}
+main img {
+    /*centrar imagen*/
+    width: 100%;
+    height: 100%
+    
+}
+div:first-child{
+
+
+    
+}
+#contenido {
+    display: flex;
+}
