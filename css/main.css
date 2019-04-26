@@ -1,6 +1,6 @@
-* {
+/* {
     border: 1px solid red;
-}*
+}*/
 
 img[alt="imagen-cabecera"] {
     width: 864px;
@@ -12,9 +12,15 @@ body{
     margin: auto;
     background-color:#faf7f7;
     box-shadow: 2px 2px 30px -13px rgba(0,0,0,0.75);
+    font-family: 'Work Sans','sans-serif';
+    font-size: 18px;
+    color:#585858;
+    line-height: 147%;
 }
 h1{
     margin:30px;
+    font-size: 1em;
+    font-style: italic;
 }
 nav{
     /* porque aquí no funciona el margin: auto;?*/
@@ -28,11 +34,12 @@ li {
     display: inline-block;
     margin: 5px 10px 10px 20px;
    }
-       
 
 figure {
-    margin: 0px;
+    margin: auto;
     display: block;
+    width: 90%;
+    height: 90%;
     
 }
 main {
@@ -51,10 +58,10 @@ aside {
 }
 main img {
     /*centrar imagen*/
-    width: 90%;
-    height: 90%;
-    margin: auto;
-    display: block;
+    width: 100%;
+    height: 100%;
+    /*margin: auto;
+    display: block;*/
     
 }
 #rrsslogo{
