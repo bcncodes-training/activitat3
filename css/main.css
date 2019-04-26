@@ -20,9 +20,13 @@ nav{
     /* porque aquí no funciona el margin: auto;?*/
     text-align: center;
 }
+ul{
+    border-bottom: 1px solid black;
+}
 
 li {
-    display: inline-block;    
+    display: inline-block;
+    margin: 5px 10px 10px 20px;
    }
        
 
@@ -36,6 +40,7 @@ main {
     width: 60%;
     padding: 30px;
     border-right: 1px solid #dfdcdc;
+    text-align: justify;
 
 }
 aside {
@@ -46,15 +51,32 @@ aside {
 }
 main img {
     /*centrar imagen*/
-    width: 100%;
-    height: 100%
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: block;
     
 }
-div:first-child{
-
+#rrsslogo{
+    width: 100%;
 
     
 }
 #contenido {
     display: flex;
+}
+
+.imgentradas {
+    float: left;
+}
+
+#entradaspopulares {
+    /*no puedo ajustar el ancho de este div. Es porque tiene display flex?*/
+    display: flex;
+    flex-direction: column;
+    width: 279px;
+}
+
+.textoentradas {
+    
 }
