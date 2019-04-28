@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Corsiva;
+    src: url(../assets/fonts/Corsiva.woff2);
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(../assets/fonts/OpenSans.woff2);
+}
+  body{
+      line-height: 24px;
+      font-family: Georgia, Cambria, serif;
+      font-size: 16px;
+      margin: 0;
+      background-color: #faf7f7;
+      color: #585858;
+      font: normal normal 14px Open Sans;
+      letter-spacing: 1px;
+      box-sizing: border-box;
+      text-align: justify;
+
+  }
+#barra-superior{background-color: #e6edf7;position: fixed;width: 100%;border-bottom: 2px solid #3399FF;z-index: 1;margin: auto;height: 50px;}
+#barra-superior>ul{display: inline-flex;width: 100%;list-style-type: none;flex-direction: row;/*! align-items: center; */justify-content: center;margin: 5px 0;position: fixed;}
+#barra-superior>ul>li>a{color: #3399FF;font-size: 16px;}
+ul>li{padding: 5px;text-transform: uppercase;font-size: 11px;text-align: center;width: 150px;position: relative;height: 30px;background-color: #e6edf7;}
+#barra-superior>ul>li:last-child{margin-left: 75px;}
+#barra-superior>ul>li:last-child input{font-size: 11px;text-align: center;}
+ul>li>ul{display: none;list-style-type: none;width: 150px;position: relative;margin-top: 127px;}
+.content{margin: 0 50px;-webkit-box-shadow: 0px 0px 35px 0px rgba(0,0,0,1);-moz-box-shadow: 0px 0px 35px 0px rgba(0,0,0,1);box-shadow: 0 0 50px -8px rgb(0, 0, 0);min-width: 915px;padding-top: 75px;margin-bottom: 20px;}
+nav{text-align: center;color: #010101;margin: 10px;border-bottom: 1px solid #010101;padding-bottom: 10px;}
+nav a{padding: 5px 20px;}
+main{padding: 0px 20px 20px;width: 70%;display: inline-block;box-sizing: border-box;position: relative;border-right: 1px solid #f1f1f1;}
+h1{color: #848484;font: normal normal 19.6px Open Sans;margin: 20px;}
+h2{
+      color: #3499ff;
+      font: normal normal 35px Corsiva;
+      letter-spacing: 5px;
+      text-align: initial;
+  }
+  a{
+      color: #3399FF;
+      text-decoration: none;
+      font-size: 12px;
+  }
+p{line-height: 24px;}
+time{font-size: 16px;color: #ADADAD;}
+.images{
+      text-align:center;
+  }
+aside{width: 30%;display: inline-block;box-sizing: border-box;float: right;padding: 0 20px;}  
+aside div{margin-bottom: 20px;overflow: auto;}
+aside div:first-child{text-align: center;font-size: 16px;letter-spacing: 0;color: #cd3a66;background-color: #f9d9e9;padding: 5px 1px;margin-right: 10px;}
+aside div a{display: inline-block;float: left;}
+aside div div{float: left;display: inline-block;height: 38px;min-width: 160px;width: 69%;padding: 5px;box-sizing: border-box;overflow: initial;}
+
+#barra-superior>ul>li:hover  #barra-superior>ul>li>a:hover  ul>li>ul>li{
+	display: block;
+	position: absolute;left: 0px;
+}
+ul>li:hover {background-color: azure;}
+ul>li:hover>ul {display: contents;position: relative;left: 0px;margin-top: -27px;}
+ul>li>ul>li:hover>ul {display: block;margin-left: 115px;}
+.menu li{/*! width: initial; */display: list-item;text-align: -webkit-match-parent;padding: 10px 5px 0 0;}
+.backToTop{background-image: url(../assets/botón\ subir\ paris\ 05.PNG);background-repeat: no-repeat;position: fixed;bottom: 20px;height: 109px;width: 109px;right: 15px;display: none;}
