@@ -108,6 +108,12 @@ main img {
     width: 279px;
     font-size: 0.8em;
 }
+#up {
+    position: fixed;
+    top: 800px;
+    right: 0px;
+    
+}
 
 .textoentradas {
     position: relative;
