@@ -21,6 +21,22 @@ h1{
     margin:30px;
     font-size: 1em;
     font-style: italic;
+    color: #848484;
+    font: normal normal 19.6px Open Sans;
+}
+h2{
+    color: #3499ff;
+    font: italic normal 2em Corsiva;
+    letter-spacing: 5px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+figcaption{
+    font-size: 0.8em;
+    font-style: italic;
 }
 nav{
     /* porque aquí no funciona el margin: auto;?*/
@@ -33,7 +49,11 @@ ul{
 li {
     display: inline-block;
     margin: 5px 10px 10px 20px;
-   }
+}
+
+li a {
+    color: #000000;
+}
 
 figure {
     margin: auto;
@@ -77,13 +97,19 @@ main img {
     float: left;
 }
 
+#entradaspopulares a{
+    margin: 20px;
+}
+
 #entradaspopulares {
     /*no puedo ajustar el ancho de este div. Es porque tiene display flex?*/
     display: flex;
     flex-direction: column;
     width: 279px;
+    font-size: 0.8em;
 }
 
 .textoentradas {
-    
+    position: relative;
+    left: 15px;
 }
