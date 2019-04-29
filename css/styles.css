@@ -1,25 +1,39 @@
-html,
-body {
+html {
   color: #00f;
-  background-color: #cfc;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
+  background-color: #FBF7F8;
+}
+
+body{
+  width: 1000px;
+  /*width: 864px;*/
+  margin: auto;
 }
 
 h1 {
   color: rgba(255, 0, 0, 0.5);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 32px;
 }
 
 h2 {
   color: rgba(170, 0, 0, 0.5);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 24px;
+}
+
+.date {
+  color: grey;
+  font-weight: bold;
+}
+
+#titulo{
+  color: grey;
+  font-weight: normal;
 }
 
 .etiqueta {
   background-color: #060;
+  color: white;
 }
 
 .negrita {
@@ -27,3 +41,78 @@ h2 {
   color: #fff;
   font-style: italic;
 }
+
+article {
+  padding: 10px;
+}
+
+#contenedor {
+  float: left;
+  width: 70%;
+  /*background-color: #cfc;*/
+}
+
+nav{
+  height: 30px;
+  width: 60%;
+  margin: auto;
+  border-bottom: 2px solid grey;
+}
+
+a{
+  color: cornflowerblue;
+  text-decoration:none;
+}
+
+nav a {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  height: 1.5em;
+  text-decoration:none;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+aside {
+  width: 30%;
+  float: right;
+}
+
+footer {
+  float: left;
+  height: 200px;
+  padding: 10px; 
+}
+
+aside section{
+  float: left;
+  width: 100%;
+}
+
+aside section div img{
+  float: left;
+  width: 50px;
+  clear: both;
+  padding: 5px;
+}
+
+aside section div a{
+  float: left;
+  width: 75%;
+  padding: 5px;
+}
+
+#entradas {
+  background-color: lightpink;
+  text-align: center;
+  padding: 5px;
+  color: rgb(218, 40, 99);
+  }
+
+  .titulo-seccion{
+    text-align: center;
+    padding: 10px;
+    color: cornflowerblue;
+  text-decoration:none;
+  }
